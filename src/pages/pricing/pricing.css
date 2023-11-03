@@ -20,7 +20,6 @@
     margin-right: 100px; /* Adjust margin as needed */
   }
   
-  
   /* Remove right margin from the last card to prevent extra space */
   .pricing-card:last-child {
     margin-right: 0;

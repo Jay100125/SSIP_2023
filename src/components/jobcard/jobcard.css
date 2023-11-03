@@ -1,0 +1,84 @@
+/* job.css */
+
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Cormorant+Upright:wght@700&family=Montserrat:ital,wght@0,400;1,400;1,500&display=swap');
+
+/* Styles for the card container */
+.job {
+    background-color: #fff;
+    border: 1px solid #e1e1e1;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    width: 250px; /* Adjust the width as needed */
+    display: inline-block; 
+    margin-bottom: 25px;
+    margin-right: 20px;/* Allows multiple cards in one row */
+  }
+  
+  /* Styles for the category section */
+  .category {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+  
+
+  
+  /* Styles for the job title */
+  h2.jobtitle {
+    font-size: 24px;
+    margin-bottom: 10px;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  /* Styles for the job information section */
+  .jobInfo {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-top: 15px;
+    font-family: 'Cormorant Upright', serif; 
+    /* justify-content: space-between; */
+  }
+  
+  /* Adjust the layout for the location and time */
+  .location {
+    /* Add your location icon styles here */
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10px;
+    /* Add margin to create space between location and time */
+  }
+  
+  /* Styles for the time (you can add your styles here) */
+
+  /* Styles for the bottom information section */
+  .infoBottom {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  
+  /* Styles for the left section of the bottom info */
+  .innerLeft {
+    font-size: 13px;
+    padding-top: 40px;
+    text-align: start;
+  }
+  
+  /* Styles for the circular logo image */
+  .logo img {
+    width: 90px;
+    height: 90px;
+    height: auto;
+    border-radius: 50%; /* Use border-radius to create a circular shape */
+    display: block; /* Ensures the image is centered within the circle */
+    margin: 0 auto; /* Center the image horizontally */
+  }
+  .name{
+    font-size: 18px;
+    font-weight: 500;
+  }
