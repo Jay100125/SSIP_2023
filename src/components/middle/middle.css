@@ -1,0 +1,48 @@
+*{margin: 0;}
+.container {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 15px;
+  font-family: 'Lora', serif;
+}
+.heading {
+  color: #1a3454;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.9em;
+  text-align: left;
+  margin-left: 25px;
+  margin-top: 100px;
+}
+.detail {
+  display: flex;
+  font-size: 18px;
+  line-height: 1.4em;
+  margin-top: 25px;
+  margin-left: 25px;
+  font-family: 'Lora', serif;
+  text-align: left;
+  color: #77838f;
+}
+/* Remove the margin from ul and li elements */
+.points ul {
+    list-style-type: none;
+    margin: 0; /* Remove the margin */
+  }
+  
+  .points ul li {
+    margin: 0; /* Remove the margin */
+  }
+  
+  .points ul li::before {
+    content: '\2713'; /* Unicode character for a checkmark */
+    display: inline-block;
+    width: 1em;
+    margin-right: 5px;
+  }
+  /* Add margin to the top of the ul to space it out */
+  .points {
+    margin-top: 15px;
+    color: #77838f;
+  }
+  

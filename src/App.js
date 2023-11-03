@@ -1,9 +1,14 @@
-import TopBar from './components/Topbar/TopBar';
+import Topbar from './components/topbar/TopBar'
+import Footer from './components/footer/Footer';
+import Home from './pages/home/Home';
 
 function App() {
   return (
     <div className="App">
-      <TopBar/>
+<Topbar />
+     <Home />
+    <Footer/>
+    {/* <SingleJob /> */}
     </div>
   );
 }

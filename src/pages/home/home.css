@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&family=Cormorant+Upright:wght@700&family=Jost&family=Montserrat:ital,wght@0,400;1,400;1,500&family=Roboto&display=swap');
+.jb {
+  background-color: #fff;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  display: inline-block;
+  background-color: #D6ECF4;;
+}
+.text {
+  margin-left: 20px;
+  font-weight: 700;
+  font-family: 'Jost', sans-serif;
+  padding: 90px 0px 65px 0px;
+  color: #1a3454;
+  font-size: 40px;
+}

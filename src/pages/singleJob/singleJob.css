@@ -1,0 +1,116 @@
+/* SingleJob.css */
+
+/* Styles for the job detail container */
+.job-detail-header {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Styles for the job title */
+  .job-detail-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the featured icon */
+  .featured {
+    color: #f5a623; /* Customize the color for the featured icon */
+  }
+  .job-metas-detail{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  /* Styles for the category and icons */
+  .category-job {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  .category-job .with-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  .category-job a {
+    text-decoration: none;
+    color: #007bff; /* Customize the link color */
+    margin-right: 10px;
+  }
+  
+  /* Styles for the location and icon */
+  .job-location {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .job-location .with-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  job-location a {
+    text-decoration: none;
+    color: #007bff; /* Customize the link color */
+    margin-right: 10px;
+  }
+  
+  /* Styles for other job details (e.g., deadline, salary) and their icons */
+  .job-deadline, .job-salary {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+  .job-deadline .with-icon, .job-salary .with-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+  }
+  
+  /* Style for the job type and other details */
+  .job-metas-detail-bottom {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style for the "Urgent" label */
+  .urgent {
+    color: #ff2d55; /* Customize the color for the "Urgent" label */
+  }
+  
+  /* Style for the application deadline and applied button */
+  .deadline-time, .btn-apply {
+    text-align: right; /* Pushes the elements to the right */
+  }
+  .action{
+    text-align: right;
+  }
+  .job-detail-buttons{
+    text-align: right;
+  }
+
+  i{
+    margin: 5px;
+  }
+  .end{
+    text-align: right;
+    margin-right: 0px;
+  }
