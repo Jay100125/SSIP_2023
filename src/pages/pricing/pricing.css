@@ -1,0 +1,28 @@
+.App {
+    display: flex;
+    text-align: center;
+  }
+  
+  .pricing-cards-container {
+    display: flex;
+    overflow: auto;
+    margin-left: 120px;
+    margin-top: 100px; /* Add horizontal scrolling if needed */
+  }
+  
+  /* Optional: If you want to remove scrolling and adjust card width */
+  .pricing-cards-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .pricing-card {
+    flex: 0 0 auto; /* Prevent flex items from growing */
+    margin-right: 100px; /* Adjust margin as needed */
+  }
+  
+  
+  /* Remove right margin from the last card to prevent extra space */
+  .pricing-card:last-child {
+    margin-right: 0;
+  }
+  

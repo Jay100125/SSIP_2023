@@ -19,6 +19,7 @@ export default function Home() {
        <Job />
        <Job />
        <Job />
+       
        </div>
        
       {/* <Footer /> */}
