@@ -1,0 +1,34 @@
+.jobtitle,
+.desc,
+.date,
+.location {
+  margin: 10px;
+  text-align: center; /* Center the elements */
+}
+
+h5 {
+  font-size: 24px; /* Increase the font size */
+  text-align: center; /* Center the text */
+}
+
+.textt,.textarea {
+  width: 60%; /* Reduce the width */
+  padding: 8px;
+  margin: 5px 0;
+  display: block;
+  margin: 0 auto; /* Center the input fields */
+}
+
+button.post {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto; /* Center the button */
+}
+
+button.post:hover {
+  background-color: #0056b3;
+}

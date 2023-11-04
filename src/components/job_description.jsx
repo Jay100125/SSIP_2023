@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import { jobs } from './job_data';
+import { Link } from 'react-router-dom';
 import './job_card.css'
 import './job_description.css'
 const JobDescription = () => {
@@ -24,7 +25,9 @@ const JobDescription = () => {
       </div>
       <p className="detail" dangerouslySetInnerHTML={{ __html: job.description }}></p>
       <div className="center-button-container">
-        <button className='btn-submit'>Apply Job</button>
+        <button className='btn-submit'>
+          <Link to="/Apply">Apply now</Link>
+        </button>
       </div>
     </>
   );

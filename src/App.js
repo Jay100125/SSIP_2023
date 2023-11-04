@@ -6,6 +6,7 @@ import Find_Job from './components/find_jobs'
 import JobDescription from './components/job_description'
 import { BrowserRouter as Router, Route, Switch, Routes } from 'react-router-dom';
 import JobPost from './pages/jobPost/JobPost';
+import ApplyNow from './components/applyNow/ApplyNow';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           {/* <Route path="/about-us" component={AboutUs} /> */}
           {/* <Route path="/faq" component={FAQ} />  */}
             <Route path="/jobpost" element={<JobPost />}></Route>
+            <Route path="/apply" element={<ApplyNow />}></Route>
         </Routes>
         <Footer />
       </div>
