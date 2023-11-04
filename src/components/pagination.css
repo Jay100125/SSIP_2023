@@ -1,0 +1,52 @@
+/* pagination.css */
+
+/* Style for the outer navigation container */
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Style for each pagination item */
+.page-item {
+  margin: 0 5px; /* Adjust the margin as needed */
+}
+
+/* Style for pagination links (anchors) */
+.page-link {
+  text-decoration: none;
+  padding: 5px 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+  background-color: #fff;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+
+/* Style for the active page link */
+.page-link.active {
+  background-color: #007BFF; /* Adjust the active background color as needed */
+  color: #fff; /* Adjust the active text color as needed */
+  border: 1px solid #007BFF; /* Adjust the active border color as needed */
+}
+
+/* Hover state for pagination links */
+.page-link:hover {
+  background-color: #007BFF; /* Adjust the hover background color as needed */
+  color: #fff; /* Adjust the hover text color as needed */
+  border: 1px solid #007BFF; /* Adjust the hover border color as needed */
+}
+
+/* Disable state for pagination links */
+.page-link.disabled {
+  color: #ccc; /* Adjust the disabled text color as needed */
+  pointer-events: none;
+}
+
+/* Additional styling for page numbers */
+.page-link:not(.active) {
+  /* Add any extra styles for non-active page numbers here */
+}

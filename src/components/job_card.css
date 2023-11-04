@@ -1,0 +1,67 @@
+/* job_card.css */
+
+.job-list {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  left: 0px;
+  position: relative;
+  top: 0px;
+}
+
+.job-card {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin: 10px;
+  margin-left: 40px;
+  width: 100%; /* Make each card take up full width */
+  box-sizing: border-box; /* Include padding and border in the width */
+}
+
+.company-info {
+  display: flex;
+  align-items: center; /* Center the company logo and name horizontally */
+  margin-bottom: 10px;
+}
+
+.company-logo {
+  max-width: 100px; /* Adjust the width as needed */
+  display: block; /* Prevents the image from affecting the layout */
+  border-radius: 50%;
+}
+
+.company-name {
+  font-weight: bold; /* Make the company name bold */
+  margin-left: 10px; /* Add space between logo and name */
+}
+
+.job-details {
+  display: flex;
+  justify-content: space-between; /* Distribute items evenly in a row */
+  font-size: 14px; /* Adjust the font size for the details */
+}
+
+.city,
+.salary,
+.job-type {
+  margin-right: 10px; /* Add space between the details */
+}
+
+.company-link {
+  text-decoration: none;
+  color: black; /* Link color */
+}
+
+.company-link:hover {
+  text-decoration: underline;
+}
+.job-card-detail {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  margin: 30px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}

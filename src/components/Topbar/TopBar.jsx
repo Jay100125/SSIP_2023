@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 import './topbar.css'
 
 export default function Topbar() {
-  const user = true
-  const employer = false
+  const user = false
+  const employer = true
   return (
     <div className="top">
       <div className="topLeft">
@@ -31,12 +31,16 @@ export default function Topbar() {
       <div className="topRight">
         <ul className="topList">
           {user ? (
-            <li className="topList-item">Login</li>
+            <li className="topList-item">
+                <Link to="/login">Login</Link>
+            </li>
           ) : (
             <li className="topList-item">Register</li>
           )}
 
-          {employer ? <li className="topList-item">Job post</li> : <li> </li>}
+          {employer ? <li className="topList-item">
+          <Link to="/jobpost">Job post</Link>
+          </li> : <li> </li>}
         </ul>
         <i class="topSearchIcon fa-solid fa-magnifying-glass"></i>
       </div>

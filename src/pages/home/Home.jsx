@@ -5,6 +5,7 @@ import Footer from '../../components/footer/Footer'
 import Middle from '../../components/middle/Middle'
 import Job from '../../components/job/Job'
 import Jobs from '../../components/jobs/Jobs'
+import Login from '../../tempelates/Login/Login'
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
        <Job />
        <Job /> */}
        <Jobs />
+  {/* <Login /> */}
        </div>
        
       {/* <Footer /> */}

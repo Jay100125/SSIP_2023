@@ -1,0 +1,191 @@
+/* Sidebar Styles */
+.sidebar-wrapper {
+  padding: 0px; /* Reduce padding for a more compact look */
+  width: 20%; /* Reduce the width to 20% */
+  background-color: #ddd;
+  margin-top: 20px;
+  left: 100px;
+  position: relative;
+  border-radius: 10px;
+  display: flex;
+  height: 1032px;
+}
+
+.sidebar-left {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.form-search {
+  background: #fff;
+  padding: 20px;
+  width: auto;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+/* Form Input Styles */
+.form-group {
+  margin-bottom: 30px; /* Increase the margin between form groups */
+}
+
+input {
+  width: 20px;
+}
+
+.form-group-title .has-icon .flaticon-magnifiying-glass,
+.form-group-center-location .has-icon .flaticon-location,
+.form-group-category .has-icon .flaticon-briefcase-1,
+.form-group-type .has-icon .flaticon-briefcase-1 {
+  color: #333; /* Icon color */
+}
+
+.form-control {
+  width: 92%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+.form-control .form-group-center-location .form-control,
+.form-group-category .form-control,
+.form-group-type .form-control,
+.form-group-date-posted .form-control,
+.form-group-5 .form-control,
+.form-group-Others .form-control {
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  outline: none;
+}
+/* Increase the width of the range input */
+.form-range {
+  width: 100%;
+}
+
+/* Style the text-distance element */
+.text-distance {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+}
+.text{
+  font-size: 20px;
+}
+/* Adjust the distance value with changing range */
+.form-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px; /* Adjust the thumb width as needed */
+  height: 20px; /* Adjust the thumb height as needed */
+  background: #007bff; /* Thumb background color */
+  border: 2px solid #fff; /* Thumb border color */
+  border-radius: 50%; /* Make it a circle */
+  cursor: pointer;
+}
+
+.form-range::-webkit-slider-thumb::before {
+  content: attr(data-value);
+  display: block;
+  position: absolute;
+  bottom: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #007bff;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.form-group-date-posted .inner ul.list-item label,
+.form-group-5 .inner ul.list-item label,
+.form-group-Others .inner ul.list-item label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.form-group-date-posted .inner ul.list-item .list-item:last-child label,
+.form-group-5 .inner ul.list-item .list-item:last-child label,
+.form-group-Others .inner ul.list-item .list-item:last-child label {
+  margin-bottom: 0;
+}
+
+/* Button Styles */
+.btn-submit {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-top: 30px;
+}
+.list {
+  float: right; /* Float the "list" element to the right */
+  margin-top: 10px;
+}
+/* CSS for the main container that holds both the form and the list */
+.maincontainer {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap;
+}
+
+/* Style for the left side (form) */
+.sidebar {
+  flex: 1; /* Make it take up available space */
+  padding: 20px; /* Add padding for spacing */
+  box-sizing: border-box; /* Include padding in the width */
+}
+
+/* Style for the right side (list) */
+.heading {
+  /* flex: 1; Make it take up available space */
+  padding: 20px; /* Add padding for spacing */
+  box-sizing: border-box; /* Include padding in the width */
+  margin-top: 280px;
+  margin-left: 100px;
+  display: flex;
+  height: 113px;
+  width: 90%;
+  position: relative;
+}
+.h4 {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  font-size: 1.5rem;
+}
+.option-menu {
+  display: flex; /* Use flexbox to align items horizontally */
+  align-items: center; /* Vertically center items in the flex container */
+  position: absolute;
+  right: 60px;
+  margin-top: 15px;
+}
+
+.option-select {
+  margin-right: 10px; /* Add space between the two select elements */
+  padding: 13px; /* Add padding for better spacing */
+  border: 1px solid #ccc; /* Add a border for styling */
+  border-radius: 4px; /* Add rounded corners */
+  font-size: 14px; /* Adjust the font size as needed */
+  background-color: #f8f8f8; /* Background color */
+  cursor: pointer; /* Show a pointer cursor on hover */
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1200px; /* Set a max-width to control the width of the container */
+  margin: 0 auto;
+  flex-wrap: wrap;
+  flex: 1;
+  position: relative;
+  top: -280px;
+  flex-direction: column;
+}

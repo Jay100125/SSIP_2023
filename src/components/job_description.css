@@ -1,0 +1,23 @@
+.center-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px; /* Optional: To center vertically within the viewport */
+  position: relative;
+  top: 0px;
+}
+
+/* Style for the "Apply Job" button */
+.btn-submit {
+  background: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Optional: Add hover effect for the button */
+.btn-submit:hover {
+  background: #0056b3; /* Change the background color on hover */
+}
